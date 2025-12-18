@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADIDAS || CART DETAILS</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Review your cart and complete your purchase at ADIDAS Shopping. Secure checkout for premium running shoes with fast delivery across Egypt.">
+        <meta name="keywords" content="shopping cart, checkout, Adidas shoes purchase, order summary, secure payment, online shopping">
+        <meta name="author" content="ADIDAS Shopping">
+        <meta name="robots" content="noindex, follow">
+        <meta name="language" content="English">
+        
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://www.yourdomain.com/cart-details.html">
+        
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content="Shopping Cart - ADIDAS Premium Running Shoes">
+        <meta property="og:description" content="Complete your purchase of premium Adidas running shoes. Secure checkout and fast delivery.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.yourdomain.com/assets/images/banners/home.png">
+        <meta property="og:url" content="https://www.yourdomain.com/cart-details.html">
+        
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Shopping Cart - ADIDAS Premium Running Shoes">
+        <meta name="twitter:description" content="Complete your purchase of premium Adidas running shoes. Secure checkout and fast delivery.">
+        <meta name="twitter:image" content="https://www.yourdomain.com/assets/images/banners/home.png">
 
-    <!-- Icon -->
-    <link rel="Icon" href="../assets/images/icons/adidas.png">
+        <!-- Icon -->
+        <link rel="Icon" href="../assets/images/icons/adidas.png">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- My Style -->
-    <link rel="stylesheet" href="../assets/styles/main.css">
-    <link rel="stylesheet" href="../assets/styles/layout/header.css">
-    <link rel="stylesheet" href="../assets/styles/pages/cart-details.css">
-</head>
-<body>
-    <!-- header -->
-    <header id="header">
-    </header>
+        <!-- My Style -->
+        <link rel="stylesheet" href="../assets/styles/main.css">
+        <link rel="stylesheet" href="../assets/styles/layout/header.css">
+        <link rel="stylesheet" href="../assets/styles/pages/cart-details.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header id="header">
+        </header>
 
-    <!-- Main Content -->
-    <div class="main-cart" >
-        <!-- Products -->
-        <div class="products-cart"></div>
-        <!-- Invoice -->
-        <div class="invoice-cart">
-            <div class="invoice-head">
-                <h2>ADIDAS</h2>
-                <img src="../assets/images/icons/adidas.png" alt="logo">
+        <!-- Main Content -->
+        <div class="main-cart" >
+            <!-- Products -->
+            <div class="products-cart"></div>
+            <!-- Invoice -->
+            <div class="invoice-cart">
+                <div class="invoice-head">
+                    <h2>ADIDAS</h2>
+                    <img src="../assets/images/icons/adidas.png" alt="logo">
+                </div>
+                
+                <table border="1" width="90%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+
+                <h3 class="total-price"></h3>
             </div>
-            
-            <table border="1" width="90%">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Quantity</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <tbody id="table-body"></tbody>
-            </table>
-
-            <h3 class="total-price"></h3>
         </div>
-    </div>
 
-    <div class="no-product" id="no-product">
-        <h2>Not Exist Any Product</h2>
-    </div>
+        <div class="no-product" id="no-product">
+            <h2>Not Exist Any Product</h2>
+        </div>
 
-    <!-- Scripts -->
-    <script src="../src/components/header.js"></script>
-    <script src="../src/pages/cartDetails.js"></script>
-</body>
+        <!-- Scripts -->
+        <script src="../src/components/header.js"></script>
+        <script src="../src/pages/cartDetails.js"></script>
+    </body>
 </html>
