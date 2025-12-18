@@ -197,7 +197,7 @@ Adidas Project/
 
 ### User Interaction
 
-![User Interaction](docs/images/user_interaction.jpg)
+![User Interaction](docs/images/adidas-user-interaction.png)
 
 ---
 
